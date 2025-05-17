@@ -1,0 +1,26 @@
+{
+  "users": {
+    "user1": {"password": "password1", "role": "admin"},
+    "user2": {"password": "password2", "role": "manager"},
+    "user3": {"password": "password3", "role": "worker"}
+  },
+  "employees": [
+    {"name": "Anna Nowak", "position": "Inżynier", "id": 1, "email": "anna.nowak@example.com"},
+    {"name": "Jan Kowalski", "position": "Technik", "id": 2, "email": "jan.kowalski@example.com"},
+    {"name": "Ewa Wiśniewska", "position": "Specjalista", "id": 3, "email": "ewa.w@example.com"},
+    {"name": "Piotr Zieliński", "position": "Kierownik", "id": 4, "email": "piotr.z@example.com"}
+  ],
+  "departments": [
+    {"name": "IT", "id": 1, "floor": 3, "manager": "Piotr Zieliński"},
+    {"name": "HR", "id": 2, "floor": 1, "manager": "Ewa Wiśniewska"},
+    {"name": "Finanse", "id": 3, "floor": 2, "manager": "Anna Nowak"},
+    {"name": "Marketing", "id": 4, "floor": 4, "manager": "Jan Kowalski"}
+  ],
+  "shifts": [
+    {"id": 101, "employee": "Anna Nowak", "hours": "08:00 - 16:00"},
+    {"id": 102, "employee": "Jan Kowalski", "hours": "10:00 - 18:00"},
+    {"id": 103, "employee": "Ewa Wiśniewska", "hours": "12:00 - 20:00"},
+    {"id": 104, "employee": "Piotr Zieliński", "hours": "06:00 - 14:00"}
+  ]
+}
+
